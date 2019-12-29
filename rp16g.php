@@ -1,5 +1,5 @@
 <?php
-/* aquilax presents rp16g http://internetigri.com */
+// aquilax presents: rp16g
 session_start();
 $p=&$_POST;
 $s=&$_SESSION;
@@ -108,7 +108,7 @@ $t.='</div>';
     $at = rnd($s['mn']['a']);
     if ($at== $at+2) $at *=2;
     $hit = $at-$s['d'];
-    $hit = ($hit<1)?0:$hit; 
+    $hit = ($hit<1)?0:$hit;
     $t.=sprintf('<p>Monster attacks and takes %d HP</p>', $hit);
     $s['h'] -= $hit;
     if($s['h']<1){
@@ -116,7 +116,7 @@ $t.='</div>';
       session_destroy();
       die();
     }
-  } 
+  }
   $mn = $s['m'][$s['y']][$s['x']];
   $t.='<center>';
   $t.='<h4>Fight</h4>';
@@ -191,4 +191,3 @@ if(isset($s['st'])){
 } else{
   st();
 }
-?>

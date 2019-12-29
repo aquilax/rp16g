@@ -1,5 +1,6 @@
-English
-===================
+# rp16g
+
+## English
 
 Tiny php single-file RPG game;
 
@@ -7,12 +8,10 @@ Features:
 - map engine;
 - for of war;
 - battles with hideous monsters;
-- batle with the dragon (game's boss)
+- battle with the dragon (game's boss)
 - romantic ending;
 
-Demo: http://posterfans.com/game/rp16g.php
-
-Български
+## Български
 ===================
 
 Играта предлага:
@@ -21,5 +20,3 @@ Demo: http://posterfans.com/game/rp16g.php
 - битки с чудовища;
 - битка с дракон;
 - романтичен край;
-
-Демо: http://posterfans.com/game/rp16g.php
